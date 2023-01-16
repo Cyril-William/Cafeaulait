@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3AB54182975BB2A0045F08B /* CafeaulaitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB54172975BB2A0045F08B /* CafeaulaitApp.swift */; };
+		B3AB541A2975BB2A0045F08B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB54192975BB2A0045F08B /* ContentView.swift */; };
+		B3AB541C2975BB2B0045F08B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3AB541B2975BB2B0045F08B /* Assets.xcassets */; };
+		B3AB541F2975BB2B0045F08B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3AB541E2975BB2B0045F08B /* Preview Assets.xcassets */; };
+		B3AB54292975BB2B0045F08B /* CafeaulaitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB54282975BB2B0045F08B /* CafeaulaitTests.swift */; };
+		B3AB54332975BB2B0045F08B /* CafeaulaitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB54322975BB2B0045F08B /* CafeaulaitUITests.swift */; };
+		B3AB54352975BB2B0045F08B /* CafeaulaitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB54342975BB2B0045F08B /* CafeaulaitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3AB54252975BB2B0045F08B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3AB540C2975BB2A0045F08B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3AB54132975BB2A0045F08B;
+			remoteInfo = Cafeaulait;
+		};
+		B3AB542F2975BB2B0045F08B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3AB540C2975BB2A0045F08B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3AB54132975BB2A0045F08B;
+			remoteInfo = Cafeaulait;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3AB54142975BB2A0045F08B /* Cafeaulait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cafeaulait.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3AB54172975BB2A0045F08B /* CafeaulaitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeaulaitApp.swift; sourceTree = "<group>"; };
+		B3AB54192975BB2A0045F08B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3AB541B2975BB2B0045F08B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3AB541E2975BB2B0045F08B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3AB54242975BB2B0045F08B /* CafeaulaitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafeaulaitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3AB54282975BB2B0045F08B /* CafeaulaitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeaulaitTests.swift; sourceTree = "<group>"; };
+		B3AB542E2975BB2B0045F08B /* CafeaulaitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafeaulaitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3AB54322975BB2B0045F08B /* CafeaulaitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeaulaitUITests.swift; sourceTree = "<group>"; };
+		B3AB54342975BB2B0045F08B /* CafeaulaitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeaulaitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3AB54112975BB2A0045F08B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3AB54212975BB2B0045F08B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3AB542B2975BB2B0045F08B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3AB540B2975BB2A0045F08B = {
+			isa = PBXGroup;
+			children = (
+				B3AB54162975BB2A0045F08B /* Cafeaulait */,
+				B3AB54272975BB2B0045F08B /* CafeaulaitTests */,
+				B3AB54312975BB2B0045F08B /* CafeaulaitUITests */,
+				B3AB54152975BB2A0045F08B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3AB54152975BB2A0045F08B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3AB54142975BB2A0045F08B /* Cafeaulait.app */,
+				B3AB54242975BB2B0045F08B /* CafeaulaitTests.xctest */,
+				B3AB542E2975BB2B0045F08B /* CafeaulaitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3AB54162975BB2A0045F08B /* Cafeaulait */ = {
+			isa = PBXGroup;
+			children = (
+				B3AB54172975BB2A0045F08B /* CafeaulaitApp.swift */,
+				B3AB54192975BB2A0045F08B /* ContentView.swift */,
+				B3AB541B2975BB2B0045F08B /* Assets.xcassets */,
+				B3AB541D2975BB2B0045F08B /* Preview Content */,
+			);
+			path = Cafeaulait;
+			sourceTree = "<group>";
+		};
+		B3AB541D2975BB2B0045F08B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B3AB541E2975BB2B0045F08B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3AB54272975BB2B0045F08B /* CafeaulaitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3AB54282975BB2B0045F08B /* CafeaulaitTests.swift */,
+			);
+			path = CafeaulaitTests;
+			sourceTree = "<group>";
+		};
+		B3AB54312975BB2B0045F08B /* CafeaulaitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3AB54322975BB2B0045F08B /* CafeaulaitUITests.swift */,
+				B3AB54342975BB2B0045F08B /* CafeaulaitUITestsLaunchTests.swift */,
+			);
+			path = CafeaulaitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3AB54132975BB2A0045F08B /* Cafeaulait */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3AB54382975BB2B0045F08B /* Build configuration list for PBXNativeTarget "Cafeaulait" */;
+			buildPhases = (
+				B3AB54102975BB2A0045F08B /* Sources */,
+				B3AB54112975BB2A0045F08B /* Frameworks */,
+				B3AB54122975BB2A0045F08B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cafeaulait;
+			productName = Cafeaulait;
+			productReference = B3AB54142975BB2A0045F08B /* Cafeaulait.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3AB54232975BB2B0045F08B /* CafeaulaitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3AB543B2975BB2B0045F08B /* Build configuration list for PBXNativeTarget "CafeaulaitTests" */;
+			buildPhases = (
+				B3AB54202975BB2B0045F08B /* Sources */,
+				B3AB54212975BB2B0045F08B /* Frameworks */,
+				B3AB54222975BB2B0045F08B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3AB54262975BB2B0045F08B /* PBXTargetDependency */,
+			);
+			name = CafeaulaitTests;
+			productName = CafeaulaitTests;
+			productReference = B3AB54242975BB2B0045F08B /* CafeaulaitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3AB542D2975BB2B0045F08B /* CafeaulaitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3AB543E2975BB2B0045F08B /* Build configuration list for PBXNativeTarget "CafeaulaitUITests" */;
+			buildPhases = (
+				B3AB542A2975BB2B0045F08B /* Sources */,
+				B3AB542B2975BB2B0045F08B /* Frameworks */,
+				B3AB542C2975BB2B0045F08B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3AB54302975BB2B0045F08B /* PBXTargetDependency */,
+			);
+			name = CafeaulaitUITests;
+			productName = CafeaulaitUITests;
+			productReference = B3AB542E2975BB2B0045F08B /* CafeaulaitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3AB540C2975BB2A0045F08B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B3AB54132975BB2A0045F08B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B3AB54232975BB2B0045F08B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B3AB54132975BB2A0045F08B;
+					};
+					B3AB542D2975BB2B0045F08B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B3AB54132975BB2A0045F08B;
+					};
+				};
+			};
+			buildConfigurationList = B3AB540F2975BB2A0045F08B /* Build configuration list for PBXProject "Cafeaulait" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3AB540B2975BB2A0045F08B;
+			productRefGroup = B3AB54152975BB2A0045F08B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3AB54132975BB2A0045F08B /* Cafeaulait */,
+				B3AB54232975BB2B0045F08B /* CafeaulaitTests */,
+				B3AB542D2975BB2B0045F08B /* CafeaulaitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3AB54122975BB2A0045F08B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3AB541F2975BB2B0045F08B /* Preview Assets.xcassets in Resources */,
+				B3AB541C2975BB2B0045F08B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3AB54222975BB2B0045F08B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3AB542C2975BB2B0045F08B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3AB54102975BB2A0045F08B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3AB541A2975BB2A0045F08B /* ContentView.swift in Sources */,
+				B3AB54182975BB2A0045F08B /* CafeaulaitApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3AB54202975BB2B0045F08B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3AB54292975BB2B0045F08B /* CafeaulaitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3AB542A2975BB2B0045F08B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3AB54332975BB2B0045F08B /* CafeaulaitUITests.swift in Sources */,
+				B3AB54352975BB2B0045F08B /* CafeaulaitUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3AB54262975BB2B0045F08B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3AB54132975BB2A0045F08B /* Cafeaulait */;
+			targetProxy = B3AB54252975BB2B0045F08B /* PBXContainerItemProxy */;
+		};
+		B3AB54302975BB2B0045F08B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3AB54132975BB2A0045F08B /* Cafeaulait */;
+			targetProxy = B3AB542F2975BB2B0045F08B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B3AB54362975BB2B0045F08B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3AB54372975BB2B0045F08B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3AB54392975BB2B0045F08B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cafeaulait/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamsouef.Cafeaulait;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3AB543A2975BB2B0045F08B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cafeaulait/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamsouef.Cafeaulait;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B3AB543C2975BB2B0045F08B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamsouef.CafeaulaitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cafeaulait.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cafeaulait";
+			};
+			name = Debug;
+		};
+		B3AB543D2975BB2B0045F08B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamsouef.CafeaulaitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cafeaulait.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cafeaulait";
+			};
+			name = Release;
+		};
+		B3AB543F2975BB2B0045F08B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamsouef.CafeaulaitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cafeaulait;
+			};
+			name = Debug;
+		};
+		B3AB54402975BB2B0045F08B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.williamsouef.CafeaulaitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cafeaulait;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3AB540F2975BB2A0045F08B /* Build configuration list for PBXProject "Cafeaulait" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3AB54362975BB2B0045F08B /* Debug */,
+				B3AB54372975BB2B0045F08B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3AB54382975BB2B0045F08B /* Build configuration list for PBXNativeTarget "Cafeaulait" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3AB54392975BB2B0045F08B /* Debug */,
+				B3AB543A2975BB2B0045F08B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3AB543B2975BB2B0045F08B /* Build configuration list for PBXNativeTarget "CafeaulaitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3AB543C2975BB2B0045F08B /* Debug */,
+				B3AB543D2975BB2B0045F08B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3AB543E2975BB2B0045F08B /* Build configuration list for PBXNativeTarget "CafeaulaitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3AB543F2975BB2B0045F08B /* Debug */,
+				B3AB54402975BB2B0045F08B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3AB540C2975BB2A0045F08B /* Project object */;
+}
