@@ -14,6 +14,7 @@
 		B3AB54292975BB2B0045F08B /* CafeaulaitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB54282975BB2B0045F08B /* CafeaulaitTests.swift */; };
 		B3AB54332975BB2B0045F08B /* CafeaulaitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB54322975BB2B0045F08B /* CafeaulaitUITests.swift */; };
 		B3AB54352975BB2B0045F08B /* CafeaulaitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AB54342975BB2B0045F08B /* CafeaulaitUITestsLaunchTests.swift */; };
+		B3F97FEA299D21F0004EED49 /* ContenersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F97FE9299D21F0004EED49 /* ContenersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B3AB542E2975BB2B0045F08B /* CafeaulaitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CafeaulaitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3AB54322975BB2B0045F08B /* CafeaulaitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeaulaitUITests.swift; sourceTree = "<group>"; };
 		B3AB54342975BB2B0045F08B /* CafeaulaitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeaulaitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3F97FE9299D21F0004EED49 /* ContenersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				B3AB54172975BB2A0045F08B /* CafeaulaitApp.swift */,
+				B3F97FE9299D21F0004EED49 /* ContenersView.swift */,
 				B3AB54192975BB2A0045F08B /* ContentView.swift */,
 				B3AB541B2975BB2B0045F08B /* Assets.xcassets */,
 				B3AB541D2975BB2B0045F08B /* Preview Content */,
@@ -259,6 +262,7 @@
 			files = (
 				B3AB541A2975BB2A0045F08B /* ContentView.swift in Sources */,
 				B3AB54182975BB2A0045F08B /* CafeaulaitApp.swift in Sources */,
+				B3F97FEA299D21F0004EED49 /* ContenersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
